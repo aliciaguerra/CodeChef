@@ -9,6 +9,7 @@ public class Statistic {
 		//InputStreamReader is a bridge from byte streams to character streams
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		//parseByte turns string into a byte
 		byte T = Byte.parseByte(br.readLine());
 		
 		double avg = 0;
